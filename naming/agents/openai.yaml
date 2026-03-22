@@ -1,0 +1,4 @@
+interface:
+  display_name: "中文起名"
+  short_description: "提供中文起名方案，含出处说明、音形分析与避坑检查。"
+  default_prompt: "使用 $naming 为宝宝提出五个中文名字方案，并附上出处、谐音避坑和简明理由。"
