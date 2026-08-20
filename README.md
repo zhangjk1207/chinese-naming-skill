@@ -64,15 +64,3 @@ naming-skill/
 - 通用可复用：移除了私人信息，但保留了“用户专属背景”这一可选层
 - 易于扩展：后续可以继续补充 `references/`、`assets/` 或 `scripts/`
 
-## 开发说明
-
-这个仓库目前采用单-skill 结构，目标是让安装路径尽可能简单。
-
-如果后续需要收录更多 skill，可以改为：
-
-```text
-skills/
-  naming/
-  another-skill/
-```
-
