@@ -19,7 +19,7 @@
 如果你在 Codex 里，可以直接安装这个 skill 目录：
 
 ```text
-$skill-installer install https://github.com/zhangjk1207/naming-skill/tree/main/naming
+$skill-installer install https://github.com/zhangjk1207/naming-skill/tree/main/chinese-naming
 ```
 
 ### 方式 2：Skills CLI
@@ -27,7 +27,7 @@ $skill-installer install https://github.com/zhangjk1207/naming-skill/tree/main/n
 如果你使用 Skills CLI，可以尝试：
 
 ```bash
-npx skills add zhangjk1207/naming-skill@naming
+npx skills add zhangjk1207/naming-skill@chinese-naming
 ```
 
 如果你的环境更偏向 GitHub 路径安装，也可以直接使用上面的 GitHub URL 方式。
@@ -35,7 +35,7 @@ npx skills add zhangjk1207/naming-skill@naming
 ## 使用示例
 
 ```text
-使用 $naming 为宝宝提出五个中文名字方案，并附上出处、谐音避坑和简明理由。
+使用 $chinese-naming 为宝宝提出五个中文名字方案，并附上出处、谐音避坑和简明理由。
 ```
 
 或者直接告诉它：
@@ -49,7 +49,7 @@ npx skills add zhangjk1207/naming-skill@naming
 ```text
 naming-skill/
 ├─ README.md
-└─ naming/
+└─ chinese-naming/
    ├─ SKILL.md
    ├─ agents/
    │  └─ openai.yaml
