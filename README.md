@@ -19,7 +19,7 @@
 如果你在 Codex 里，可以直接安装这个 skill 目录：
 
 ```text
-$skill-installer install https://github.com/zhangjk1207/naming-skill/tree/main/chinese-naming
+$skill-installer install https://github.com/zhangjk1207/chinese-naming-skill/tree/main/chinese-naming
 ```
 
 ### 方式 2：Skills CLI
@@ -27,7 +27,7 @@ $skill-installer install https://github.com/zhangjk1207/naming-skill/tree/main/c
 如果你使用 Skills CLI，可以尝试：
 
 ```bash
-npx skills add zhangjk1207/naming-skill@chinese-naming
+npx skills add zhangjk1207/chinese-naming-skill@chinese-naming
 ```
 
 如果你的环境更偏向 GitHub 路径安装，也可以直接使用上面的 GitHub URL 方式。
@@ -47,7 +47,7 @@ npx skills add zhangjk1207/naming-skill@chinese-naming
 ## 仓库结构
 
 ```text
-naming-skill/
+chinese-naming-skill/
 ├─ README.md
 └─ chinese-naming/
    ├─ SKILL.md
